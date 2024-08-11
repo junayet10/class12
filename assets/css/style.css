@@ -1,0 +1,150 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+  }
+  body{
+    font-family: var(--font-family);
+  }
+  ul ol{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  nav ul li a{
+    text-transform: uppercase;
+    font-family: var(--font-family);
+     font-weight: 500 !important;
+     font-size: 15px;
+    line-height: 200%;
+    color: #353535 !important;
+    padding: 18px 24px !important;
+    position: relative;
+    display: inline-block;
+  }
+  nav ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #353535;
+    left: 0;
+    bottom: 13px;
+    transition: 0.4s;
+  }
+  nav ul li a:hover::before{
+    width: 100%;
+  }
+  nav .navbar-toggler{
+    border: none;
+    box-shadow: none !important;
+  }
+
+  .offcanvas-body ul{
+    list-style-type: none;
+    display: inline-block;
+    
+    
+  }
+  .offcanvas-body ul a{
+    text-decoration: none;
+    color: #353535;
+    padding: 23px;
+    font-family: var(--font-family);
+    
+    
+  }
+  .offcanvas-body ul a:hover{
+    color: rgb(237, 174, 17);
+  }
+  
+
+  @media (max-width: 767.98px)  { 
+    nav{
+        box-shadow: 3px 3px 30px #88888853;
+        padding: 20px 0 !important;
+    }
+  }
+/* BANNER*/
+#banner h5{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #353535;
+}
+#banner h2{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+color: #353535;
+}
+#banner p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+color: #353535;
+}
+#banner .button-group .btn-1{
+    background-color: #ffcc00;
+    display: inline-block;
+    padding: 16px 0 17px 45px;
+    border-radius: 20px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 180%;
+color: #fff;
+}
+#banner .button-group .btn-1 span{
+    padding: 0px 45px 0px 11px;
+    display: inline-block;
+}
+#banner .button-group .btn-1:hover{
+    background-color: #141313;
+}
+
+#banner .button-group .btn-2{
+    display: inline-block;
+    padding: 16px 10px 17px 45px;
+    background-color: #fff;
+    border: 2px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+color: #353535;
+}
+#banner .button-group .btn-2 span{
+    padding: 0px 33px 0px 9px;
+    display: inline-block;
+}
+#banner .button-group .btn-2:hover{
+    background-color: #ffcc00;
+    border-radius: 20px;
+}
+
+#banner .follow{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 22px;
+line-height: 180%;
+color: #353535;
+padding: 20px 0 0 0 !important;
+}
+
+
+#banner .follow a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 2px;
+    color: #353535;
+}
+
+#banner a{
+    color: #353535;
+}
+
+/* BANNER END*/

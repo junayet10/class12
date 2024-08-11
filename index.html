@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASHIKUR</title>
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Potta+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!--GOOGLE FONTS END-->
+    <!-- FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- NAV-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight">
+                <span<i class="fa-solid fa-warehouse"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link acttive" aria-disabled="true">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link acttive" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <img src="./assets/images/logo.png" alt="">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li class="py-2"><a href="#">HOME</a></li>
+                <li class="py-2"><a href="#">ABOUT</a></li>
+                <li class="py-2"><a href="#">PROJECTS</a>
+                </li>
+                <li class="py-2"><a href="#">BLOGS</a></li>
+                <li class="py-2"><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- NAV END -->
+
+    <!-- BANNER -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column align-item-center justify-content-center">
+                    <h5>Hello, I'm Arif Rahman <i class="fa-solid fa-hands-clapping"></i></h5>
+                    <h2>UIUX and Graphic Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint
+                        commodi repudiandae consequuntur </p>
+
+                        <div class="button-group">
+                            <a class="btn-1" href="#">Lets talk<span><i class="fa-regular fa-paper-plane"></i></span></a>
+                            <a class="btn-2" href="#">Download CV<span><i class="fa-solid fa-cloud-arrow-down"></i></span></a>
+                        </div>
+                        <div class="follow">
+                            <span>Follow me :</span>
+                            <a href="" class="bg-light p-2 rounded-5"><i class="fa-solid fa-earth-americas"></i></a>
+                            <a href="" class="bg-light p-2 rounded-4"><i class="fa-brands fa-square-behance"></i></a>
+                            <a href="" class="bg-light p-2 rounded-5"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="" class="bg-light p-2 rounded-5"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="./assets/images/banner1.png" alt="">
+                </div>
+
+            </div>
+            <div class="position-absolute start-50 translate-middle ">
+                <a href="" class=" p-2 rounded-5"><i class="fa-solid fa-computer-mouse"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER END -->
+
+
+
+
+
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
